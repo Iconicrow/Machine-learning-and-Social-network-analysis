@@ -35,10 +35,10 @@ You would need a good knowledge Graphs and Social networks and some basics Node 
 
 ### Installation
 ## Follow these steps to set up and install the required dependencies:
-Clone the repository:
-- git clone https://github.com/yourusername/your-repo.git
-Change into the project directory:
+# Clone the repository:
+- git clone [https://github.com/yourusername/your-repo.git](https://github.com/Iconicrow/Machine-learning-and-Social-network-analysis/blob/main/README.md)
+# Change into the project directory:
 -cd your-repo
-Install dependencies using requirements.txt:
-pip install -r requirements.txt
+# Install dependencies using requirements.txt:
+- pip install -r requirements.txt
 
