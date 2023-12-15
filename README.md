@@ -1,9 +1,4 @@
 # Machine-learning-and-Social-network-analysis
-Using Graphs as the baseline to explain the friendship between students and analyzing how their gets effected with change in Graph attributes using Machine learning
-# Project Name
-
-A concise and descriptive paragraph about your project.
-
 ## Table of Contents
 
 - [About](#about)
@@ -17,22 +12,33 @@ A concise and descriptive paragraph about your project.
 - [Acknowledgments](#acknowledgments)
 
 ## About
+Using Graphs as the baseline to explain the friendship between students and analyzing how their gets effected with change in Graph attributes using Machine learning.This was done by manually collecting information from students about who their friends are, CGPA of the student and individual grade in each mark and several other features.
 
-Briefly describe your project. What does it do? Why did you create it?
-
-## Features
-
-Highlight key features of your project. Use bullet points for easy readability.
-
-- Feature 1
-- Feature 2
-- ...
 
 ## Getting Started
 
-Provide instructions on how to get your project up and running. Include any prerequisites, installation steps, and configuration details.
-
+## Features and Labels for ML Model :
+- Custom Features :
+- No of friends from the same section.
+- No of friends of same gender in a ego graph of radius 2.
+- No of friends of opposite gender in a ego graph of radius 2
+- Standard Features :
+- Degree of a node
+- Eigen_centrality
+- Betweeness
+- Clustering
+- Node Conductivity
+- Node Locality
+  
 ### Prerequisites
+You would need a good knowledge Graphs and Social networks and some basics Node and Edge features to understand underlying logic behing the implementation and some knowledge of Machine learning and how to train those models is necessary.
 
-List any software, libraries, or tools that users need before they can use your project.
+### Installation
+## Follow these steps to set up and install the required dependencies:
+Clone the repository:
+- git clone https://github.com/yourusername/your-repo.git
+Change into the project directory:
+-cd your-repo
+Install dependencies using requirements.txt:
+pip install -r requirements.txt
 
